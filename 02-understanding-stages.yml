@@ -8,9 +8,9 @@ pool:
 stages:
   - stage: Build
     jobs:
-    - job: Firstjob
+    - job: FirstJob
       steps:
-      - bash: echo Build First job
+      - bash: echo Build First Job
     - job: SecoundJob
       steps:
       - bash: echo Build Secound job
