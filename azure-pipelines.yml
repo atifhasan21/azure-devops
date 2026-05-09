@@ -24,7 +24,7 @@ stages:
       displayName: Build an image
       inputs:
         containerRegistry: 'atif-docker-hub'
-        repository: 'azure-devops/currency-exchange-devops'
+        repository: 'atifhasan21/currency-exchange-devops'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: '$(tag)'
